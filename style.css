@@ -1,0 +1,61 @@
+/*root  */
+:root {
+  --primary-color: #001f3f;
+  --secondary-color: #0da574;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  
+}
+section{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid red;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a{
+    color: var(--secondary-color);
+}
+
+/* universal classes styles */
+
+.flex {
+  display: flex;
+}
+.btn {
+  border: none;
+  padding: 5px 5px;
+}
+
+/* Navbar Section styles */
+
+.navbar {
+  justify-content: space-between;
+  border: 1px solid red;
+}
+.nav-left {
+  width: 100px;
+}
+.logo {
+  font-size: 20px;
+}
+
+
+
+/* Hero section */
+.hero-content{
+    width: 300px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.hero-image{
+    border: 1px solid red;
+}
+.hero-text{
+    text-align: center;
+    margin-top: -50px;
+}
