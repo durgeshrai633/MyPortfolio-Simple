@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar starts from here -->
@@ -14,7 +24,7 @@
       <div class="flex navbar">
         <div class="flex-item nav-left">
           <!-- Logo of the portflio -->
-          <span class="logo">My Portflio</span>
+          <a href=""> <span class="logo">My Portflio</span></a>
         </div>
         <div class="flex-item nav-right">
           <div class="nav-menu">
@@ -31,86 +41,91 @@
       <!-- Hero section starts her -->
       <section class="hero">
         <div class="hero-content">
-          <img
-            src="./images/magicpattern-blob-1644492387416.jpg"
-            alt=""
-            class="hero-image"
-          />
+          <img src="./images/hero.jpg" alt="" class="hero-image" />
           <div class="hero-text">
             <h1>Durgesh Kumar Rai</h1>
-          <p>Full Stack Developer</p>
+            <p>Full Stack Developer</p>
+            <a href="#" class="btn">Resume</a>
           </div>
         </div>
-        
       </section>
       <!-- About section starts her -->
       <section id="about" class="about">
-        <div class="about-content">
-          <div class="about-text">
-            <h2>About me</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-              placeat distinctio sed tempore enim ea nostrum officiis veritatis
-              dicta praesentium culpa nobis sapiente facilis perferendis rerum
-              ducimus, itaque earum accusamus nulla. Quos assumenda voluptatum
-              rerum dignissimos dolore accusantium id natus.
-            </p>
-          </div>
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            placeat distinctio sed tempore enim ea nostrum officiis veritatis
+            dicta praesentium culpa nobis sapiente facilis perferendis rerum
+            ducimus, itaque earum accusamus nulla. Quos assumenda voluptatum
+            rerum dignissimos dolore accusantium id natus.
+          </p>
         </div>
       </section>
       <!-- Tech-stack section starts here -->
       <section id="technology" class="tech-stack">
         <div class="tech-content">
-            <h2>Frontend</h2>
-          <div class="flex">
-            <div>
-              <img src="" alt="" />
-              <p>HTML</p>
+          <div>
+            <h2>Frontend Technologies</h2>
+            <div class="tech-flex">
+              <a href="#"><img src="/images/html5.png" alt="" /></a>
+              <a href="#"><img src="/images/css3.png" alt="" /></a>
+              <a href="#"><img src="/images/javascript.png" alt="" /></a>
+              <a href="#"><img src="/images/react.png" alt="" /></a>
             </div>
           </div>
-          <h2>Backend</h2>
-          <div class="flex tech-flex">
-          <div class="flex">
-            <div>
-              <img src="" alt="" />
-              <p>HTML</p>
+          <div>
+            <h2>Backend Technologies</h2>
+            <div class="tech-flex">
+              <a href="#"><img src="/images/mongodb.png" alt="" /></a>
+              <a href="#"><img src="/images/express.png" alt="" /></a>
+              <a href="#"><img src="/images/nodejs.png" alt="" /></a>
+              <a href="#"><img src="/images/github.png" alt="" /></a>
             </div>
           </div>
         </div>
       </section>
       <!-- Projects section starts here -->
       <section id="projects" class="projects">
-          <div class="projects-content">
-          </div>
+        <div class="projects-content"></div>
       </section>
       <!-- Contact section starts her -->
       <section id="contact" class="contact">
-          <div class="contact-content">
-        <div class="contact-form">
-          <form action="">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-            <label for="massege">Massege:</label>
-            <textarea name="massege" id="massege" cols="30" rows="10"></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-        <div class="social-media">
-          <a href="">Linked In</a>
-          <a href="">GitHub</a>
-          <a href="">Instagram</a>
-          <a href="">Email</a>
-          <a href="">Facebook</a>
-        </div>
+        <div class="contact-content">
+          <h2 style="text-align: center">Connect with me</h2>
+          <div class="contact-form">
+            <form action="">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" />
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+              <label for="massege">Massege:</label>
+              <textarea
+                name="massege"
+                id="massege"
+                cols="20"
+                rows="3"
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div class="social-media">
+            <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="#" class="fa fa-github fa-2x"></a>
+            <a href="#" class="fa fa-instagram fa-2x"></a>
+            <a href="#" class="fa fa-facebook fa-2x"></a>
+          </div>
         </div>
       </section>
     </main>
     <!-- Footer starts from here -->
     <footer>
-     <p> Create by <a href="">Durgesh kumar rai</a></p>
-     <p>All right are reserved. &copy;Copyright-2022</p>
+      <a href="https://iconscout.com/icons/html5" target="_blank">Icons</a>
+      by
+      <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on
+      <a href="https://iconscout.com">Iconscout</a>
+      <p>Create by <a href="">Durgesh kumar rai</a></p>
+      <p>All right are reserved. &copy;Copyright-2022</p>
     </footer>
   </body>
 </html>
