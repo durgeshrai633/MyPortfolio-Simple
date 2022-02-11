@@ -9,11 +9,15 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
+  letter-spacing: 2px;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  font-weight: 600;
 }
 section {
   margin: 2rem;
   padding: 1rem;
+  scroll-behavior: smooth;
   /* border: 1px solid red; */
 }
 h2 {
@@ -30,6 +34,7 @@ img {
 }
 a {
   color: var(--secondary-color);
+  scroll-behavior: smooth;
 }
 .btn {
   border: none;
@@ -123,13 +128,27 @@ a {
 
 /* Projects */
 .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 10px;
   border-radius: 5px;
+  gap: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .project:hover {
   transform: scale(1.02);
   transition: all 0.3s ease-in-out;
+}
+
+.project > div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.project > div > a[class="btn"]{
+  font-size: 14px;
 }
 @media screen and (min-width: 960px) {
   .projects {
@@ -202,4 +221,16 @@ button[type="submit"] {
   opacity: 0.9;
   transform: scale(1.2);
   transition: all 0.1s ease-in;
+}
+
+
+/* footer */
+footer{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding:20px 10px;
+}
+footer  a{
+  color: var(--primary-color);
+  text-decoration: underline;
 }

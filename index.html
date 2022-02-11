@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="/images/My Portfolio-logos_transparent.png" type="image/x-icon">
+    <title>Durgesh Kumar Rai's Portfolio</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -45,7 +46,12 @@
           <div class="hero-text">
             <h1>Durgesh Kumar Rai</h1>
             <p>Full Stack Developer</p>
-            <a href="#" class="btn resume">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1W-aVKLzSNdebcUN5qgRjiBzZX04Nvz23/view"
+              target="_blank"
+              class="btn resume"
+              >Resume</a
+            >
           </div>
         </div>
       </section>
@@ -53,12 +59,18 @@
       <section id="about" class="about">
         <div class="about-text">
           <h2>About me</h2>
-          <p style="margin: 0 auto; text-align: center; width: 80ch">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Repellendus eligendi provident neque maiores voluptatibus!
-            Perferendis voluptates sit saepe, possimus reprehenderit accusamus
-            assumenda nesciunt? Hic, aspernatur. Odit excepturi tempore soluta
-            facilis!
+          <p
+            style="
+              margin: 0 auto;
+              text-align: center;
+              max-width: 80ch;
+            "
+          >
+            Hello there, I am Durgesh kumar rai, a MERN stack web developer. I
+            have worked with HTML, CSS, JavaScript, React, Node JS, Express JS,
+            MongoDB technologies. I love creating problem solving projects and
+            now looking forward to growing and developing great projects in an
+            organization that promotes long-term learning.
           </p>
         </div>
       </section>
@@ -88,41 +100,86 @@
       <!-- Projects section starts here -->
       <section id="projects" class="projects">
         <div class="projects-content">
-          <h2>Projects:</h2>
+          <h2>Projects</h2>
           <div class="projects">
             <div class="project project-one">
-              <a href=""> <img src="/images/stylecraze.png" alt="" /></a>
+              <a
+                href="https://cooking-blog-node-app.herokuapp.com/"
+                target="_blank"
+              >
+                <img
+                  src="/images/cooking1.png"
+                  alt="Cooking Blog Project Image"
+              /></a>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                nihil eum commodi nesciunt tenetur corporis.
+                A Cooking Blog where user can post the recipes of different
+                categories like Thai, Indian, Chinese etc.
               </p>
               <div>
-                <a href="#" class="fa fa-github fa-1x"></a>
-                <a href="">View Project</a>
+                <a
+                  href="https://github.com/durgeshrai633/cooking-blog-node-app"
+                  target="_blank"
+                  class="fa fa-github fa-2x"
+                ></a>
+                <a
+                  href="https://cooking-blog-node-app.herokuapp.com/"
+                  class="btn"
+                  target="_blank"
+                  >View Project</a
+                >
               </div>
             </div>
-            <div class="project project-one">
-              <a href=""> <img src="/images/stylecraze.png" alt="" /></a>
-
+            <div class="project project-two">
+              <a
+                href="https://medplusmartclone.000webhostapp.com/"
+                target="_blank"
+              >
+                <img
+                  src="/images/medplusmart1.png"
+                  alt="Medplus Mart Project Image"
+              /></a>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                nihil eum commodi nesciunt tenetur corporis.
+                The website clone of medplusmart.com which is an online pharmacy
+                store in India.
               </p>
               <div>
-                <a href="#" class="fa fa-github fa-1x"></a>
-                <a href="">View Project</a>
+                <a
+                  href="https://github.com/durgeshrai633/medplusmart.com"
+                  class="fa fa-github fa-2x"
+                  target="_blank"
+                ></a>
+                <a
+                  href="https://medplusmartclone.000webhostapp.com/"
+                  class="btn"
+                  target="_blank"
+                  >View Project</a
+                >
               </div>
             </div>
-            <div class="project project-one">
-              <a href=""> <img src="/images/stylecraze.png" alt="" /></a>
+            <div class="project project-three">
+              <a
+                href="https://musing-torvalds-f99c9b.netlify.app/#"
+                target="_blank"
+              >
+                <img src="/images/insure-landing.png" alt=""
+              /></a>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                nihil eum commodi nesciunt tenetur corporis.
+                This is a solution to the Insure landing page challenge on
+                Frontend Mentor.
               </p>
               <div>
-                <a href="#" class="fa fa-github fa-1x"></a>
-                <a href="">View Project</a>
+                <a
+                  href="https://github.com/durgeshrai633/insure-landing-page"
+                  class="fa fa-github fa-2x"
+                  target="_blank"
+                ></a>
+                <a
+                  href="https://musing-torvalds-f99c9b.netlify.app/#"
+                  class="btn"
+                  target="_blank"
+                  >View Project</a
+                >
               </div>
             </div>
           </div>
@@ -133,27 +190,42 @@
         <div class="contact-content">
           <h2 style="text-align: center">Connect with me</h2>
           <div class="contact-form">
-            <form action="">
+            <form action="" id="contact-form">
               <label for="name">Name:</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" required />
               <label for="email">Email:</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required />
               <label for="massege">Massege:</label>
               <textarea
                 name="massege"
                 id="massege"
                 cols="20"
                 rows="3"
+                required
               ></textarea>
               <button type="submit">Send</button>
             </form>
           </div>
           <div class="social-media">
             <span>Social Media:</span>
-            <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-            <a href="#" class="fa fa-github fa-2x"></a>
-            <a href="#" class="fa fa-instagram fa-2x"></a>
-            <a href="#" class="fa fa-facebook fa-2x"></a>
+            <a href="https://www.linkedin.com/in/durgeshrai633/" target="_blank"
+              ><i class="fa fa-linkedin fa-2x"></i
+            ></a>
+            <a
+              href="https://www.github.com/durgeshrai633"
+              target="_blank"
+              class="fa fa-github fa-2x"
+            ></a>
+            <a
+              href="https://www.instagram.com/durgeshrai633"
+              target="_blank"
+              class="fa fa-instagram fa-2x"
+            ></a>
+            <a
+              href="https://www.facebook.com/durgeshrai633"
+              target="_blank"
+              class="fa fa-facebook fa-2x"
+            ></a>
           </div>
         </div>
       </section>
@@ -167,5 +239,6 @@
       <p>Create by <a href="">Durgesh kumar rai</a></p>
       <p>All right are reserved. &copy;Copyright-2022</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
