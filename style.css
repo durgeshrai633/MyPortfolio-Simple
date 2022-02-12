@@ -133,7 +133,7 @@ a {
   justify-content: space-around;
   padding: 10px;
   border-radius: 5px;
-  gap: 15px;
+  gap: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .project:hover {
@@ -149,6 +149,13 @@ a {
 }
 .project > div > a[class="btn"]{
   font-size: 14px;
+}
+.used-tech{
+  display: flex;
+  justify-content:space-between;
+}
+.used-tech > img{
+  max-width: 30px;
 }
 @media screen and (min-width: 960px) {
   .projects {
