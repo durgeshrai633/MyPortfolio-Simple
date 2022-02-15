@@ -95,6 +95,7 @@ a {
 .about-text h2 {
   text-align: center;
 }
+
 /* Technology */
 .tech-content {
   display: flex;
@@ -147,14 +148,14 @@ a {
   justify-content: center;
   align-items: center;
 }
-.project > div > a[class="btn"]{
+.project > div > a[class="btn"] {
   font-size: 14px;
 }
-.used-tech{
+.used-tech {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-.used-tech > img{
+.used-tech > img {
   max-width: 30px;
 }
 @media screen and (min-width: 960px) {
@@ -230,14 +231,13 @@ button[type="submit"] {
   transition: all 0.1s ease-in;
 }
 
-
 /* footer */
-footer{
+footer {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  padding:20px 10px;
+  padding: 20px 10px;
 }
-footer  a{
+footer a {
   color: var(--primary-color);
   text-decoration: underline;
 }
