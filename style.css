@@ -136,6 +136,7 @@ a {
   border-radius: 5px;
   gap: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 20px;
 }
 .project:hover {
   transform: scale(1.02);
